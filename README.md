@@ -3,7 +3,12 @@
 https://www.gizmodo.com.au/2020/03/brooklyn-nine-nine-puzzle-explained-monty-hall/
 
 ## Result with 2000000 tries
-![result](result.png)
+```
+Right guesses without switch: 666544
+Right guesses switch: 1333456
+Percentage without switch: 0.333272
+Percentage  switch: 0.666728
+```
 ## Conclusion
 It is statistical speaking better to switch the guess.
 ## Code
