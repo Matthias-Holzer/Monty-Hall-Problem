@@ -1,3 +1,13 @@
+# Monty Hall Problem
+## Great explanation
+https://www.gizmodo.com.au/2020/03/brooklyn-nine-nine-puzzle-explained-monty-hall/
+
+## Result with 2000000 tries
+![result](result.png)
+## Conclusion
+It is statistical speaking better to switch the guess.
+## Code
+```
 import random
 
 cg1 = 0
@@ -28,3 +38,4 @@ print(f"Right guesses without switch: {cg1}")
 print(f"Right guesses switch: {cg2}")
 print(f"Percentage without switch: {cg1/a}")
 print(f"Percentage  switch: {cg2/a}")
+```
